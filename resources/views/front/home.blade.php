@@ -102,12 +102,12 @@
       <div id="navbar" class="navbar-collapse collapse page-scroll navbar-right">
           <ul class="nav navbar-nav">
               <li>
-                  <a href="index.html#home">Home
+                  <a href="http://www.totalitnigeria.com/">Home
                       <span class="sr-only"></span>
                   </a>
               </li>
               <li>
-                  <a href="index.html#about">About
+                  <a href="http://www.totalitnigeria.com/">About
                       <span class="sr-only"></span>
                   </a>
               </li>
@@ -120,28 +120,28 @@
                   <a class="dropdown-toggle " data-toggle="dropdown" href="#">WE-DO
                   <span class="caret"></span></a>
                   <ul class=" dropdown-menu-left dropdown-menu ">
-                    <li><a class="dropdown-item" href="wedo.html#sales">Gadget Sales</a></li>
-                    <li><a class="dropdown-item" href="wedo.html#repairs">Gadget Repairs </a></li>
-                    <li><a class="dropdown-item" href="wedo.html#consultancy">IT Consultancy</a></li> 
-                    <li><a class="dropdown-item" href="wedo.html#training">IT Training </a></li>
-                   <li><a class="dropdown-item" href="wedo.html#support">Business IT Support </a></li>
-                  <li><a class="dropdown-item" href="wedo.html#process">Business Process Development </a></li>
-              <li><a class="dropdown-item" href="wedo.html#mobile">Mobile App Development</a></li>
-              <li><a class="dropdown-item" href="wedo.html#web">Web Design &amp;  App Development</a></li>                           
-               <li><a class="dropdown-item" href="wedo.html#software">Software Development</a></li>
-                 <li><a class="dropdown-item" href="wedo.html#data">Data Recovery &amp; BackUp</a></li>
-                 <li><a class="dropdown-item" href="wedo.html#intelligence">Business Intelligence </a></li>
-                  <li><a class="dropdown-item" href="wedo.html#networking"> Networking</a></li>
-                   <li><a class="dropdown-item" href="wedo.html#cloud"> Cloud computing</a></li>
+                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Gadget Sales</a></li>
+                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Gadget Repairs </a></li>
+                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">IT Consultancy</a></li> 
+                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">IT Training </a></li>
+                   <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Business IT Support </a></li>
+                  <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Business Process Development </a></li>
+              <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Mobile App Development</a></li>
+              <li><a class="dropdown-item" href="http://www.totalitnigeria.com/ &amp;  App Development</a></li>                           
+               <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Software Development</a></li>
+                 <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Data Recovery &amp; BackUp</a></li>
+                 <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Business Intelligence </a></li>
+                  <li><a class="dropdown-item" href="http://www.totalitnigeria.com/"> Networking</a></li>
+                   <li><a class="dropdown-item" href="http://www.totalitnigeria.com/"> Cloud computing</a></li>
                   </ul>
                 </li>
               <li>
-                  <a href="index.html#portfolio">Projects
+                  <a href="http://www.totalitnigeria.com/">Projects
                       <span class="sr-only"></span>
                   </a>
               </li>
               <li>
-                  <a href="index.html#testimonials">Clients
+                  <a href="http://www.totalitnigeria.com/">Clients
                       <span class="sr-only"></span>
                   </a>
               </li>
@@ -151,7 +151,7 @@
                   </a>
               </li>
               <li>
-                  <a href="index.html#contact">Contact
+                  <a href="http://www.totalitnigeria.com/">Contact
                       <span class="sr-only"></span>
                   </a>
               </li>

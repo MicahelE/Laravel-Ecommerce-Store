@@ -80,113 +80,113 @@
         
          <!-- ========== Navigation ========== -->
 
-    <nav class="navbar navbar-default navbar-fixed-top mega navbar-inverse navbar-trans navbar-fw ">
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!-- Logo -->
-            <a class="navbar-brand" href="index.html">
-                <img class="navbar-logo" src="../assets/images/logo.png" alt="Logo">
-            </a>
-        </div>
+   <nav class="navbar navbar-default navbar-fixed-top mega navbar-inverse navbar-trans navbar-fw ">
+      <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+              aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <!-- Logo -->
+          <a class="navbar-brand" href="index.html">
+              <img class="navbar-logo" src="../assets/images/logo.png" alt="Logo">
+          </a>
+      </div>
 
-        <!-- Navbar Links -->
-        <div id="navbar" class="navbar-collapse collapse page-scroll navbar-right">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="index.html#home">Home
-                        <span class="sr-only"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html#about">About
-                        <span class="sr-only"></span>
-                    </a>
-                </li>
-                <!-- <li>
-                    <a href="#services">WE-DO
-                        <span class="sr-only"></span>
-                    </a>
-                </li> -->
-                <li class="dropdown  ">
-                    <a class="dropdown-toggle " data-toggle="dropdown" href="#">WE-DO
-                    <span class="caret"></span></a>
-                    <ul class=" dropdown-menu-left dropdown-menu ">
-                      <li><a class="dropdown-item" href="wedo.html#sales">Gadget Sales</a></li>
-                      <li><a class="dropdown-item" href="wedo.html#repairs">Gadget Repairs </a></li>
-                      <li><a class="dropdown-item" href="wedo.html#consultancy">IT Consultancy</a></li> 
-                      <li><a class="dropdown-item" href="wedo.html#training">IT Training </a></li>
-                     <li><a class="dropdown-item" href="wedo.html#support">Business IT Support </a></li>
-                    <li><a class="dropdown-item" href="wedo.html#process">Business Process Development </a></li>
-                <li><a class="dropdown-item" href="wedo.html#mobile">Mobile App Development</a></li>
-                <li><a class="dropdown-item" href="wedo.html#web">Web Design &amp;  App Development</a></li>                           
-                 <li><a class="dropdown-item" href="wedo.html#software">Software Development</a></li>
-                   <li><a class="dropdown-item" href="wedo.html#data">Data Recovery &amp; BackUp</a></li>
-                   <li><a class="dropdown-item" href="wedo.html#intelligence">Business Intelligence </a></li>
-                    <li><a class="dropdown-item" href="wedo.html#networking"> Networking</a></li>
-                     <li><a class="dropdown-item" href="wedo.html#cloud"> Cloud computing</a></li>
-                    </ul>
-                  </li>
-                <li>
-                    <a href="index.html#portfolio">Projects
-                        <span class="sr-only"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html#testimonials">Clients
-                        <span class="sr-only"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="{{url('/category/3')}}">Store
-                        <span class=""></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html#contact">Contact
-                        <span class="sr-only"></span>
-                    </a>
-                </li>
-
-                 <!-- Cart -->
-                 <li id="ajaxView" class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> Cart({{Cart::count()}})</a>
-                  <ul class="dropdown-menu cart-dropdown">
-                    <li class="dropdown-header">Cart</li>
-                    <li role="separator" class="divider cart-sep-top"></li>
-                    @foreach($cartItems as $cartItem )
-                    <li>
-                      <div class="cart-item">
-                        <a href="{{route('cart.index')}}"><img class="cartthumb" src="{{url('images',$shirts->find($cartItem->id)->image)}}" alt="Product Name" class="p-thumb"></a>
-                        <a href="{{route('cart.index')}}" class="cart-remove-btn"><span class="linea-arrows-square-remove"></span></a>
-                        <a href="{{route('cart.index')}}" class="cp-name">{{$cartItem->name}}</a>
-                        <p class="cp-price">{{$cartItem->qty}} x ₦{{$cartItem->price}}</p>
-                      </div>
-
-                     
-                    </li>
-                    @endforeach
-                    <li role="separator" class="divider cart-sep-bot"></li>
-                    <li>
-                      <h6 class="item-totals">Items Total: <span>₦{{Cart::subtotal()}}</span></h6>
-                    </li>
-                    <li class="cart-btns">
-                      <a href="{{route('cart.index')}}" class="btn-ghost-light btn-block">View Cart</a>
-                      <a href="{{url('/order')}}" class="btn btn-light btn-block">Checkout</a>
-                    </li>
-
+      <!-- Navbar Links -->
+      <div id="navbar" class="navbar-collapse collapse page-scroll navbar-right">
+          <ul class="nav navbar-nav">
+              <li>
+                  <a href="http://www.totalitnigeria.com/">Home
+                      <span class="sr-only"></span>
+                  </a>
+              </li>
+              <li>
+                  <a href="http://www.totalitnigeria.com/">About
+                      <span class="sr-only"></span>
+                  </a>
+              </li>
+              <!-- <li>
+                  <a href="#services">WE-DO
+                      <span class="sr-only"></span>
+                  </a>
+              </li> -->
+              <li class="dropdown  ">
+                  <a class="dropdown-toggle " data-toggle="dropdown" href="#">WE-DO
+                  <span class="caret"></span></a>
+                  <ul class=" dropdown-menu-left dropdown-menu ">
+                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Gadget Sales</a></li>
+                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Gadget Repairs </a></li>
+                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">IT Consultancy</a></li> 
+                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">IT Training </a></li>
+                   <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Business IT Support </a></li>
+                  <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Business Process Development </a></li>
+              <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Mobile App Development</a></li>
+              <li><a class="dropdown-item" href="http://www.totalitnigeria.com/ &amp;  App Development</a></li>                           
+               <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Software Development</a></li>
+                 <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Data Recovery &amp; BackUp</a></li>
+                 <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Business Intelligence </a></li>
+                  <li><a class="dropdown-item" href="http://www.totalitnigeria.com/"> Networking</a></li>
+                   <li><a class="dropdown-item" href="http://www.totalitnigeria.com/"> Cloud computing</a></li>
                   </ul>
-                </li><!-- / Cart -->
-            </ul>
-            <!-- / .nav .navbar-nav -->
-        </div>
-        <!--/.navbar-collapse -->
-    </nav>
+                </li>
+              <li>
+                  <a href="http://www.totalitnigeria.com/">Projects
+                      <span class="sr-only"></span>
+                  </a>
+              </li>
+              <li>
+                  <a href="http://www.totalitnigeria.com/">Clients
+                      <span class="sr-only"></span>
+                  </a>
+              </li>
+              <li>
+                  <a href="{{url('/category/3')}}">Store
+                      <span class="sr-only"></span>
+                  </a>
+              </li>
+              <li>
+                  <a href="http://www.totalitnigeria.com/">Contact
+                      <span class="sr-only"></span>
+                  </a>
+              </li>
+
+               <!-- Cart -->
+               <li id="ajaxView" class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="change-count"><i class="fa fa-shopping-cart"></i> Cart({{Cart::count()}})</a>
+                <ul class="dropdown-menu cart-dropdown">
+                  <li class="dropdown-header">Cart</li>
+                  <li role="separator" class="divider cart-sep-top"></li>
+                  @foreach($cartItems as $cartItem )
+                  <li class="custom-drop">
+                    <div class="cart-item">
+                      <a href="{{route('cart.index')}}"><img class="cartthumb" src="{{url('images',$products->find($cartItem->id)->image)}}" alt="Product Name" class="p-thumb"></a>
+                      <a href="{{route('cart.index')}}" class="cart-remove-btn"><span class="linea-arrows-square-remove"></span></a>
+                      <a href="{{route('cart.index')}}" class="cp-name">{{$cartItem->name}}</a>
+                      <p class="cp-price">{{$cartItem->qty}} x ₦{{$cartItem->price}}</p>
+                    </div>
+
+                   
+                  </li>
+                  @endforeach
+                  <li role="separator" class="divider cart-sep-bot"></li>
+                  <li>
+                    <h6 class="item-totals">Items Total: <span>₦{{Cart::subtotal()}}</span></h6>
+                  </li>
+                  <li class="cart-btns">
+                    <a href="{{route('cart.index')}}" class="btn-ghost-light btn-block">View Cart</a>
+                    <a href="{{url('/order')}}" class="btn btn-light btn-block">Checkout</a>
+                  </li>
+
+                </ul>
+              </li><!-- / Cart -->
+          </ul>
+          <!-- / .nav .navbar-nav -->
+      </div>
+      <!--/.navbar-collapse -->
+  </nav>
     <!-- / .navbar -->
 
 

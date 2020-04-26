@@ -47,7 +47,7 @@
         
                 <!-- ========== Navigation ========== -->
 
-    <nav class="navbar navbar-default navbar-fixed-top mega navbar-inverse navbar-trans navbar-fw ">
+   <nav class="navbar navbar-default navbar-fixed-top mega navbar-inverse navbar-trans navbar-fw ">
       <div class="navbar-header page-scroll">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
               aria-controls="navbar">
@@ -66,12 +66,12 @@
       <div id="navbar" class="navbar-collapse collapse page-scroll navbar-right">
           <ul class="nav navbar-nav">
               <li>
-                  <a href="index.html#home">Home
+                  <a href="http://www.totalitnigeria.com/">Home
                       <span class="sr-only"></span>
                   </a>
               </li>
               <li>
-                  <a href="index.html#about">About
+                  <a href="http://www.totalitnigeria.com/">About
                       <span class="sr-only"></span>
                   </a>
               </li>
@@ -84,28 +84,28 @@
                   <a class="dropdown-toggle " data-toggle="dropdown" href="#">WE-DO
                   <span class="caret"></span></a>
                   <ul class=" dropdown-menu-left dropdown-menu ">
-                    <li><a class="dropdown-item" href="wedo.html#sales">Gadget Sales</a></li>
-                    <li><a class="dropdown-item" href="wedo.html#repairs">Gadget Repairs </a></li>
-                    <li><a class="dropdown-item" href="wedo.html#consultancy">IT Consultancy</a></li> 
-                    <li><a class="dropdown-item" href="wedo.html#training">IT Training </a></li>
-                   <li><a class="dropdown-item" href="wedo.html#support">Business IT Support </a></li>
-                  <li><a class="dropdown-item" href="wedo.html#process">Business Process Development </a></li>
-              <li><a class="dropdown-item" href="wedo.html#mobile">Mobile App Development</a></li>
-              <li><a class="dropdown-item" href="wedo.html#web">Web Design &amp;  App Development</a></li>                           
-               <li><a class="dropdown-item" href="wedo.html#software">Software Development</a></li>
-                 <li><a class="dropdown-item" href="wedo.html#data">Data Recovery &amp; BackUp</a></li>
-                 <li><a class="dropdown-item" href="wedo.html#intelligence">Business Intelligence </a></li>
-                  <li><a class="dropdown-item" href="wedo.html#networking"> Networking</a></li>
-                   <li><a class="dropdown-item" href="wedo.html#cloud"> Cloud computing</a></li>
+                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Gadget Sales</a></li>
+                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Gadget Repairs </a></li>
+                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">IT Consultancy</a></li> 
+                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">IT Training </a></li>
+                   <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Business IT Support </a></li>
+                  <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Business Process Development </a></li>
+              <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Mobile App Development</a></li>
+              <li><a class="dropdown-item" href="http://www.totalitnigeria.com/ &amp;  App Development</a></li>                           
+               <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Software Development</a></li>
+                 <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Data Recovery &amp; BackUp</a></li>
+                 <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Business Intelligence </a></li>
+                  <li><a class="dropdown-item" href="http://www.totalitnigeria.com/"> Networking</a></li>
+                   <li><a class="dropdown-item" href="http://www.totalitnigeria.com/"> Cloud computing</a></li>
                   </ul>
                 </li>
               <li>
-                  <a href="index.html#portfolio">Projects
+                  <a href="http://www.totalitnigeria.com/">Projects
                       <span class="sr-only"></span>
                   </a>
               </li>
               <li>
-                  <a href="index.html#testimonials">Clients
+                  <a href="http://www.totalitnigeria.com/">Clients
                       <span class="sr-only"></span>
                   </a>
               </li>
@@ -115,26 +115,21 @@
                   </a>
               </li>
               <li>
-                  <a href="index.html#contact">Contact
+                  <a href="http://www.totalitnigeria.com/">Contact
                       <span class="sr-only"></span>
                   </a>
               </li>
-              <li>
-                 
-              <a href="{{url('/userinfo')}}"> <i class="fa fa-users"></i>Admin
-                      
-                  </a>
-              </li>
+
                <!-- Cart -->
-               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> Cart({{Cart::count()}})</a>
+               <li id="ajaxView" class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="change-count"><i class="fa fa-shopping-cart"></i> Cart({{Cart::count()}})</a>
                 <ul class="dropdown-menu cart-dropdown">
                   <li class="dropdown-header">Cart</li>
                   <li role="separator" class="divider cart-sep-top"></li>
                   @foreach($cartItems as $cartItem )
-                  <li>
+                  <li class="custom-drop">
                     <div class="cart-item">
-                      <a href="{{route('cart.index')}}"><img class="cartthumb" src="{{url('images',$shirts->find($cartItem->id)->image)}}" alt="Product Name" class="p-thumb"></a>
+                      <a href="{{route('cart.index')}}"><img class="cartthumb" src="{{url('images',$products->find($cartItem->id)->image)}}" alt="Product Name" class="p-thumb"></a>
                       <a href="{{route('cart.index')}}" class="cart-remove-btn"><span class="linea-arrows-square-remove"></span></a>
                       <a href="{{route('cart.index')}}" class="cp-name">{{$cartItem->name}}</a>
                       <p class="cp-price">{{$cartItem->qty}} x ₦{{$cartItem->price}}</p>
