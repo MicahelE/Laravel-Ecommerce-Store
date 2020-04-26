@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$('#main-banner,.gellery').owlCarousel({		
-		autoPlay: 5000,
+		autoPlay: 7000,
 		singleItem: true,
 		navigation: true,
 		pagination: true,
@@ -181,3 +181,4 @@ $.fn.tabs = function() {
 	$(this).show();
 	$(this).first().click();
 };
+

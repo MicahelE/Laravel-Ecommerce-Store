@@ -19,10 +19,11 @@ class UserinfoController extends Controller
     {
         $cartItems=Cart::content();
         $user=Auth::user();
+        $shirts=Product::all();
         // $wishlist=Wishlist::where('user_id', $user->id);
         $productsid=Wishlist::where('user_id', $user->id)->pluck('product_id');
         $products=Product::find($productsid);
-        return view('front.info',compact('cartItems', 'user', 'products'));
+        return view('front.info',compact('cartItems', 'user', 'shirts', 'products'));
         //
     }
 

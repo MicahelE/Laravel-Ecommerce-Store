@@ -186,6 +186,7 @@ header{
 .header-top {
 	border-bottom: 1px solid #3c3c3c;
 	background: #3c3c3c;
+	padding-bottom: 2px;
 }
 .language .btn.btn-link.dropdown-toggle, .currency .btn.btn-link {
 	padding: 12px 20px 10px 0px;
@@ -2935,10 +2936,71 @@ font-size: 18px;
 .fixedheader {
 	position: sticky;
     top: 0;
-	background-image: linear-gradient( to right, #e8c7c7,black);
+	background-image: linear-gradient( to right, #eaeaea,black);
     z-index: 1030;
 }
+.typewriter{
+	position: relative;
+	left: 89px;
+    bottom: 368px;
+  font-size: 90px;
+  /* transform: translate(-50%, -50%); */
+}
+/* .typewriter h1 { */
+	/* overflow: hidden;  */
+ /* font-size: 100%; */
+ /* border-right: .15em solid orange; The typwriter cursor */
+ /* white-space: nowrap; Keeps the content on a single line */
+ /* margin: 0 auto;
+ animation: 
+    typing 6.5s steps(30, end) infinite,
+	blink-caret .75s step-end infinite;
+	animation-delay: 1.5s; */
+
+/* } */
+
+.typewrite {
+	width:100%;
+	position: relative;
+	left: 89px;
+    bottom: 368px;
+  font-size: 90px;
+  /* transform: translate(-50%, -50%); */
+}
+
+.typewriter h1 {
+	font-size: 0.9em;
+	color: #a9a9a9;
+	text-transform: uppercase;
+  }
+  h1 + span {
+	border-right: .05em solid;
+	animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+	50% {
+	  border-color: transparent;
+	}
+  }
+/* @keyframes typing {
+	from { width: 0 }
+	to { width: 100% } */
+	/* 100% {opacity:0;} */
+	/* 0%{
+		width: 0ch;
+	}
+	100%{
+		width: 22ch;
+	} */
+  }
+
+  /* @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: orange; }
+  } */
+
+
 /* nav .navbar{
 	margin-top: 240px;
-	z-index: 1031; */
-}
+	z-index: 1031; *

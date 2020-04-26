@@ -71,7 +71,15 @@ class CartController extends Controller
     {
         $product=Product::find($id);
         Cart::add($id,$product->name,1,$product->price,0,['size'=>'medium']);
-        return back();
+        $products=Product::all();
+        $shirts=Product::all();
+        $cartItems=Cart::content();
+        $view = view('front.ajaxView',compact('cartItems','shirts','products'))->render(); 
+        return response()->json(['html'=>$view]);
+        // $NewCart = [];
+        // array_push($NewCart, $id, $product->name,1,$product->price,0,'medium' );
+
+        // return $NewCart;
     }
     /**
      * Update the specified resource in storage.
@@ -83,7 +91,13 @@ class CartController extends Controller
     public function update(Request $request, $id)
     {
         Cart::update($id,['qty'=>$request->qty,"options"=>['size'=>$request->size]]);
-        return back();
+        $products=Product::all();
+        $shirts=Product::all();
+        $cartItems=Cart::content();
+        $view = view('front.ajaxView',compact('cartItems','shirts','products'))->render(); 
+        $view2 = view('front.cartPage',compact('cartItems','shirts','products'))->render();
+        return response()->json(['html'=>$view, 'cart'=>$view2]);
+        // return back();
     }
 
     /**
@@ -96,6 +110,12 @@ class CartController extends Controller
     {
         //
         Cart::remove($id);
-        return back();
+        $products=Product::all();
+        $shirts=Product::all();
+        $cartItems=Cart::content();
+        $view = view('front.ajaxView',compact('cartItems','shirts','products'))->render(); 
+        $view2 = view('front.cartPage',compact('cartItems','shirts','products'))->render();
+        return response()->json(['html'=>$view, 'cart'=>$view2]);
+        // return back();
     }
 }

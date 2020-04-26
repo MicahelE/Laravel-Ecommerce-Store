@@ -10,10 +10,11 @@ class FrontController extends Controller
 {
     //
     public function index() {
-        //$shirts=Category::find(3)->products;
-        $shirts=Product::all(); 
+        $shirts=Category::find(3)->products;
+        $products=Product::all();
+        // $shirts=Product::all(); 
         $cartItems=Cart::content();
-        return view('front.home',compact('shirts','cartItems'));
+        return view('front.home',compact('shirts', 'products', 'cartItems'));
     }
     public function category($id) {
         $products=Category::find($id)->products;
@@ -47,7 +48,7 @@ class FrontController extends Controller
         // $products=$products->orderBy('name', $search)->get();
         $shirts=Product::all();
          $cartItems=Cart::content();
-         return view('front.search',compact('shirts','products','cartItems'));
+         return view('front.category',compact('shirts','products','cartItems'));
      }
     public function payform() {
         return view('front.payform');

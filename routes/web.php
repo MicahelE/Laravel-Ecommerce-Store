@@ -46,3 +46,6 @@ Route::group(['prefix'=>'admin','middleware'=>['auth','admin']], function () {
     Route::resource('/userinfo', 'UserinfoController');
     Route::get('/wishlist/create/{id}','WishlistController@create')->name('wishlist.create');
     // Route::post('/userinfo', 'UserinfoController@store');
+    Route::get('/ajaxView', function () {
+        return view('front.ajaxView');
+    })->name('front.ajaxView');

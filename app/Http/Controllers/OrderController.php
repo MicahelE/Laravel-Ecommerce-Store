@@ -20,7 +20,8 @@ class OrderController extends Controller
         $cartItems=Cart::content();
         $shirts=Product::all();
         $user=Auth::user();
-        return view('front.order',compact('cartItems','shirts', 'user')); 
+        $test = Userinfo::where('user_id', Auth::user()->id)->doesntExist();
+        return view('front.order',compact('cartItems','shirts', 'user', 'test')); 
         // return view('front.order');
     }
     return redirect('login');
@@ -62,14 +63,14 @@ class OrderController extends Controller
         $orderInput['method']=$request->method;
         $orderInput['address']=$request->address;
         // $orderInput=$request->only('delivery','payment','method');
-        $formInput['user_id']= Auth::user()->id;
+        // $formInput['user_id']= Auth::user()->id;
         $formInput['phone']= $request->phone;
         $formInput['address']=$request->address;
         $formInput['DOB']=$request->DOB;
         $formInput['city']=$request->city;
         $formInput['state']=$request->state;
         // $formInput$request->except('_token','delivery','payment','method');
-        UserInfo::updateOrCreate($formInput);
+        UserInfo::updateOrInsert(['user_id' => Auth::user()->id], $formInput);
         
         $orderInput['name']=Auth::user()->name;
         $orderInput['email']=Auth::user()->email;
@@ -77,8 +78,12 @@ class OrderController extends Controller
         $orderInput['items']=Cart::count();
         $orderInput['user_id']=Auth::user()->id;
         Order::create($orderInput);
-       
+       if($orderInput['payment']=='offline payment'){
+        return redirect('/');
+       }
+       else{
         return redirect('/payform');
+       }
     }
 
     /**

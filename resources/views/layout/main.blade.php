@@ -19,7 +19,7 @@
             
     </head>
     <body class="index">
-        <div class="preloader loader" style="display: block;"> <img src="{{asset('image/loader.gif')}}"  alt="#"/></div>
+        <div class="preloader loader" style="display: block;"> <img src="{{asset('image/totalgif.gif')}}"  alt="#"/></div>
         <header class="fixedheader">
             <div class="header-top">
               <div class="container">
