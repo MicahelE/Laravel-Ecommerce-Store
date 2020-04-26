@@ -57,7 +57,7 @@
               <span class="icon-bar"></span>
           </button>
           <!-- Logo -->
-          <a class="navbar-brand" href="index.html">
+         <a class="navbar-brand" href="http://www.totalitnigeria.com">
               <img class="navbar-logo" src="../assets/images/logo.png" alt="Logo">
           </a>
       </div>
