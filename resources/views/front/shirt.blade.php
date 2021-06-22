@@ -90,7 +90,7 @@
               <span class="icon-bar"></span>
           </button>
           <!-- Logo -->
-         <a class="navbar-brand" href="http://www.totalitnigeria.com">
+         <a class="navbar-brand" href="#>
               <img class="navbar-logo" src="../assets/images/logo.png" alt="Logo">
           </a>
       </div>
@@ -99,12 +99,12 @@
       <div id="navbar" class="navbar-collapse collapse page-scroll navbar-right">
           <ul class="nav navbar-nav">
               <li>
-                  <a href="http://www.totalitnigeria.com/">Home
+                  <a href="#">Home
                       <span class="sr-only"></span>
                   </a>
               </li>
               <li>
-                  <a href="http://www.totalitnigeria.com/">About
+                  <a href="#">About
                       <span class="sr-only"></span>
                   </a>
               </li>
@@ -117,28 +117,28 @@
                   <a class="dropdown-toggle " data-toggle="dropdown" href="#">WE-DO
                   <span class="caret"></span></a>
                   <ul class=" dropdown-menu-left dropdown-menu ">
-                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Gadget Sales</a></li>
-                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Gadget Repairs </a></li>
-                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">IT Consultancy</a></li> 
-                    <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">IT Training </a></li>
-                   <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Business IT Support </a></li>
-                  <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Business Process Development </a></li>
-              <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Mobile App Development</a></li>
-              <li><a class="dropdown-item" href="http://www.totalitnigeria.com/ &amp;  App Development</a></li>                           
-               <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Software Development</a></li>
-                 <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Data Recovery &amp; BackUp</a></li>
-                 <li><a class="dropdown-item" href="http://www.totalitnigeria.com/">Business Intelligence </a></li>
-                  <li><a class="dropdown-item" href="http://www.totalitnigeria.com/"> Networking</a></li>
-                   <li><a class="dropdown-item" href="http://www.totalitnigeria.com/"> Cloud computing</a></li>
+                    <li><a class="dropdown-item" href="#">Gadget Sales</a></li>
+                    <li><a class="dropdown-item" href="#">Gadget Repairs </a></li>
+                    <li><a class="dropdown-item" href="#">IT Consultancy</a></li> 
+                    <li><a class="dropdown-item" href="#">IT Training </a></li>
+                   <li><a class="dropdown-item" href="#">Business IT Support </a></li>
+                  <li><a class="dropdown-item" href="#">Business Process Development </a></li>
+              <li><a class="dropdown-item" href="#">Mobile App Development</a></li>
+              <li><a class="dropdown-item" href="# &amp;  App Development</a></li>                           
+               <li><a class="dropdown-item" href="#">Software Development</a></li>
+                 <li><a class="dropdown-item" href="#">Data Recovery &amp; BackUp</a></li>
+                 <li><a class="dropdown-item" href="#">Business Intelligence </a></li>
+                  <li><a class="dropdown-item" href="#"> Networking</a></li>
+                   <li><a class="dropdown-item" href="#"> Cloud computing</a></li>
                   </ul>
                 </li>
               <li>
-                  <a href="http://www.totalitnigeria.com/">Projects
+                  <a href="#">Projects
                       <span class="sr-only"></span>
                   </a>
               </li>
               <li>
-                  <a href="http://www.totalitnigeria.com/">Clients
+                  <a href="#">Clients
                       <span class="sr-only"></span>
                   </a>
               </li>
@@ -148,7 +148,7 @@
                   </a>
               </li>
               <li>
-                  <a href="http://www.totalitnigeria.com/">Contact
+                  <a href="#">Contact
                       <span class="sr-only"></span>
                   </a>
               </li>
